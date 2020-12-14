@@ -17,3 +17,12 @@ end
 def output_array array
   puts array[0, array.length]
 end
+
+def return_string_array array
+  strings []
+  counter = 0
+    while counter < array.lenght do
+      strings(array[counter].join(",").push)
+  end
+end
+    
