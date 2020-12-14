@@ -22,7 +22,7 @@ def return_string_array array
   strings []
   counter = 0
     while counter < array.lenght do
-      strings(array[counter].join(",").push)
+      strings(array[counter].to_s.push)
   end
 end
     
