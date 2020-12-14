@@ -21,7 +21,7 @@ end
 def return_string_array array
   strings []
   counter = 0
-    while counter < array.lenght do
+    while counter < array.length do
       strings(array[counter].to_s.push)
   end
   return strings
