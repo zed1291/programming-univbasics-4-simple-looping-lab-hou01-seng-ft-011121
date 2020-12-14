@@ -19,10 +19,10 @@ def output_array array
 end
 
 def return_string_array array
-  strings []
   counter = 0
     while counter < array.length do
-      strings(array[counter].to_s.push)
+      array[counter] = array[counter].to_s
+      counter += 1
   end
-  return strings
+  return array
 end
