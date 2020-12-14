@@ -25,4 +25,3 @@ def return_string_array array
       strings(array[counter].to_s.push)
   end
 end
-    
