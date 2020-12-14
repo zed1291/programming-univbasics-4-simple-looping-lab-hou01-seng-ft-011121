@@ -24,4 +24,5 @@ def return_string_array array
     while counter < array.lenght do
       strings(array[counter].to_s.push)
   end
+  return strings
 end
